@@ -1,0 +1,16 @@
+{
+    "name": "sophiegill/fizzbuzz_php",
+    "authors": [
+        {
+            "name": "Sophie Gill",
+            "email": "sgill@andigital.com"
+        }
+    ],
+    "require": {
+      "eher/phpunit": "1.6"
+    },
+    "scripts": {
+      "unit-test": "vendor/eher/phpunit/bin/phpunit test/unit_test/*",
+      "feature-test": "php test/feature_test.php"
+    }
+}
